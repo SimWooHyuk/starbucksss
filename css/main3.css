@@ -1,0 +1,32 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #333;
+
+  height: 3000px;
+}
+
+
+.container {
+width: 100%;
+background-color: turquoise;
+position: fixed;
+
+}
+a {
+text-decoration: none;
+color: #000;
+/* display: inline-block; */
+}
+
+div .login-2 {
+display: block;
+justify-content: end;
+padding: 54.4px 0px 32px;
+}
+
+.item {
+  /* display: flex; */
+}
