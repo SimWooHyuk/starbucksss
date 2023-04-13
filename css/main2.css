@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+  font-size: 19.2px;
+  font-weight: 500;
+  line-height: 1.5;
+  height: 3000px;
+}
+.inner {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-munu {
+  display: flex;
+}
+
+header {
+  background-color: bisque;
+  width: 100%;
+}
