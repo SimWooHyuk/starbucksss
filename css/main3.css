@@ -1,6 +1,6 @@
 body {
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
   color: #333;
@@ -10,23 +10,121 @@ body {
 
 
 .container {
-width: 100%;
+width: 1200px;
 background-color: turquoise;
-position: fixed;
+position: relative;
+margin: 0 auto;
 
 }
 a {
 text-decoration: none;
 color: #000;
-/* display: inline-block; */
 }
 
-div .login-2 {
-display: block;
+.container .login-2 {
+display: flex;
 justify-content: end;
 padding: 54.4px 0px 32px;
 }
 
 .item {
-  /* display: flex; */
+  display: block;
+  right: 0;
+  top: 0;
+}
+
+.container .sub-menu .login {
+  display: flex;
+  top: 0;
+  right: 0;
+  position: absolute;
+  font-size: 15px;
+  padding: 0 50px;
+
+}
+.container .main-menu .menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.container .main-menu .menu li {
+ width: 130px;
+}
+.container .main-menu:hover .are{
+display: block;
+}
+.container .main-menu .menu li {
+margin: 0 30;
+padding: 54.4px 0 32px;
+text-align: center;
+}
+.container .sub-menu ul.menu li {
+  position: absolute;
+
+}
+.container .sub-menu ul.menu li::before {
+  content: "";
+  display: block;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+.are-fa:hover .are {
+  display: block;
+}
+.are-fa {
+  display: none;
+}
+.are {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  box-sizing: border-box;
+
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  
+}
+.are .hotsiz {
+  width: 130px;
+  box-sizing: border-box;
+  height: 200px;
+}
+.are .sogae {
+  width: 130px;
+
+  box-sizing: border-box;
+  height: 200px;
+}
+.are .muni {
+  width: 130px;
+  margin-left: px;
+  height: 200px;
+}
+.are .event {
+  width: 130px;
+  height: 200px;
+}
+.are .information {
+  width: 130px;
+  height: 200px;
+}
+
+.are .annae {
+  width: 130px;
+  height: 200px;
+}
+
+.are .cash {
+  width: 130px;
+  height: 200px;
+}
+
+body {
+
 }
