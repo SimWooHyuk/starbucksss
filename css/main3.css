@@ -27,7 +27,7 @@ justify-content: end;
 padding: 54.4px 0px 32px;
 }
 
-.item {
+.main-menu menu {
   display: block;
   right: 0;
   top: 0;
@@ -127,4 +127,8 @@ text-align: center;
 
 body {
 
+}
+
+.main-menu:hover menu {
+display: block;
 }

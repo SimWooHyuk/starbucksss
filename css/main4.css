@@ -1,0 +1,142 @@
+header {
+width: 1200px;
+background-color: aqua;
+margin: 0 auto;
+display: flex;
+}
+
+
+li {
+list-style: none;
+}
+a { 
+text-decoration: none;
+color: #000;
+font-weight: 700;
+}
+ul {
+display: flex;
+}
+
+.top-menu {
+  width: 150px;
+  padding: 30px 0 20px;
+  justify-content: center;
+  display: flex;
+  }
+.sub-menu {
+  width: 150px;
+  display: block;
+  text-align: center;
+  padding: 30px 0 30PX;
+  background-color: #000;
+  color: #fff;
+}
+.box {
+  display: flex;
+}
+.top-menu-box li{
+  margin: 0 5px;
+}
+.sub-menu {
+  display: none; 
+  position: absolute;
+}
+.top-menu-box > li:hover .sub-menu {
+  display: block;
+}
+.box {
+position: relative;
+}
+.top-menu-box {
+position: ;
+padding: 15.4px 0px 12px;
+display: flex;
+justify-content: flex-end;
+
+}
+.logo {
+width: 80px;
+height: 80px;
+display: flex;
+padding: 20px;
+}
+.center {
+width: 1200px;
+margin: 0 auto;
+display: flex;
+height: 3000px;
+
+}
+.gwanggo .gwanggo-1 {
+width: 1200px; 
+height: 712px;
+/* margin: 0 auto; */ 
+}
+.gwanggo {
+display: flex;
+margin: 0 auto;
+}
+
+.gwanggo {
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  height: 712px;
+}
+.Text {
+  width: 1200px;
+  padding: 1.8rem 0.3rem 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Text .EVENT-UL , .Text .NOTICE-UL{ 
+
+flex-direction: column;
+}
+.Text .EVENT .EVENT-BIG {
+font-size: 30px;
+}
+.Text .NOTICE .NOTICE-BIG {
+font-size: 30px;
+}
+.Text .EVENT-UL .more , .Text .NOTICE-UL .more {
+width: 20px;
+margin-left: 10px;
+}
+.appbanner .appbanner-1 {
+width: 1348px;
+height: 260px;
+}
+.appbanner {
+width: 998.39px;
+max-height: 260px;
+display: block;
+text-align: center;
+background-color: #ddcfbd;
+}
+.chuchen {
+width: 1348px;
+height: 854px;
+background-image: url(https://www.yupdduk.com/images/main/bg_menu2.jpg);
+background-size: cover;
+}
+.chuchen-img {
+width: 100%px;
+height: 854.64;
+}
+.yuppduk {
+display: flex;
+margin: 0px 0px 16px;
+font-size: 38.4px;
+justify-content: center;
+color: #000;
+}
+.yup-chuchen {
+display: flex;
+margin: 10px 0px 48px;
+padding: 0px 0px 24px;
+font-size: 19.2px;
+justify-content: center;
+}
