@@ -1,6 +1,6 @@
 header {
 width: 1200px;
-background-color: aqua;
+/* background-color: aqua; */
 margin: 0 auto;
 display: flex;
 }
@@ -31,6 +31,7 @@ display: flex;
   padding: 30px 0 30PX;
   background-color: #000;
   color: #fff;
+  z-index: 12;
 }
 .box {
   display: flex;
@@ -49,7 +50,6 @@ display: flex;
 position: relative;
 }
 .top-menu-box {
-position: ;
 padding: 15.4px 0px 12px;
 display: flex;
 justify-content: flex-end;
@@ -71,6 +71,7 @@ height: 3000px;
 .gwanggo .gwanggo-1 {
 width: 1200px; 
 height: 712px;
+
 /* margin: 0 auto; */ 
 }
 .gwanggo {
@@ -182,7 +183,7 @@ background-image: url(https://www.yupdduk.com/Images/main/menu01_2021.png);
   font-family: 'Noto Sans KR', sans-serif;
     text-transform: uppercase
 }
-}
+
 .yonjo .yonjo-sub {
   max-width: 400px;
   font-size: 0.92rem;

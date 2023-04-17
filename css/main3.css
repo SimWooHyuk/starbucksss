@@ -72,7 +72,7 @@ text-align: center;
 }
 .are-fa:hover .are {
   display: block;
-}
+} 
 .are-fa {
   display: none;
 }
@@ -125,9 +125,6 @@ text-align: center;
   height: 200px;
 }
 
-body {
-
-}
 
 .main-menu:hover menu {
 display: block;
