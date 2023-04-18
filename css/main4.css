@@ -69,14 +69,16 @@ height: 3000px;
 
 }
 .gwanggo .gwanggo-1 {
-width: 1200px; 
-height: 712px;
-
-/* margin: 0 auto; */ 
+/* width: 1200px; 
+/* height: 712px; */ */
+max-width: 100%;
+height: auto;
+margin: 0 auto; 
 }
 .gwanggo {
 display: flex;
 margin: 0 auto;
+z-index: -1;
 }
 
 .gwanggo {
@@ -379,4 +381,121 @@ font-family: 'Noto Sans KR', sans-serif;
     font-size: 0.84rem;
     font-weight: 300;
     padding: 1px 6px;
+}
+
+/* @@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (max-width: 900px) {
+  .top-menu, .Text, .gwanggo {
+    display: none;
+    }
+ 
+  header #m-button {
+  display: block;}
+ header .mm-menu {
+/* display: block; */
+}
+  }
+#m-button {
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-image: url(https://www.yupdduk.com/images/icon-menu-24px-x2.png);
+  z-index: 1000;
+  position: fixed;
+  top: 1px;
+  right: 30px;
+}
+.mm-menu {
+display: none;}
+.m-menu {
+display: flex;
+width: 300px;
+height: 100%;
+background-color: #f8f4eb;
+position: fixed;
+top: 0;
+right: 0;
+font-size: 30px;
+border: 1px solid rgba(0, 0, 0, .1);
+z-index: 10;
+
+}
+.m-menu .m-bar {
+/* display: flex; */
+height: 30px;
+width: 100%;
+text-align: left;
+
+}
+.m-bar > div {
+  padding: 0px;
+}
+.m-menu .m-bar .m-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: ;
+  border-bottom: 1px  solid rgba(0, 0, 0, .1);
+
+  /* width: 100%; */
+}
+
+.m-menu .m-bar .m1 {
+  cursor: pointer;
+  display: block;
+  padding: 16px 16px 16px 30px;
+  color: #8c6239;
+  font-size: 15px;
+  border-right: 1px solid #e1d6c7;
+  /* border-right: 3px solid #000; */
+}
+.m-menu .m-bar .m2 {
+  cursor: pointer;
+  display: block;
+  padding: 16px 16px 16px 30px;
+  color: #8c6239;
+  font-size: 15px;
+  /* border: 1px solid #e1d6c7; */
+/* border-bottom: 3px solid #000; */
+}
+.m-menu .m-bar .m3 {
+  cursor: pointer;
+  display: block;
+  padding: 16px 16px 16px 30px;
+  color: #8c6239;
+  font-size: 15px;
+  border: 1px solid #e1d6c7;
+}
+.m-menu .m-bar .m4 {
+  cursor: pointer;
+  display: block;
+  padding: 16px 16px 16px 30px;
+  color: #8c6239;
+  font-size: 15px;
+  border: 1px solid #e1d6c7;
+}
+.m-menu .m-bar .m5 {
+border-bottom: 3px solid #000;
+}
+.m-menu .m-bar .m6 {
+border-bottom: 3px solid #000;
+}
+.m-menu .m-bar .m7 {
+border-bottom: 3px solid #000;
+}
+.m-menu .m-bar .m8 {
+border-bottom: 3px solid #000;
+}
+.m-menu .m-bar .m9 {
+border-bottom: 3px solid #000;
+}
+.m-menu .m-logo {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 16px 30px;
+}
+.m-menu .m-logo .m-logos {
+width: 30px;
+height: 30px;
 }
