@@ -1,21 +1,23 @@
 header {
-width: 1200px;
-/* background-color: aqua; */
-margin: 0 auto;
-display: flex;
+  width: 1200px;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  display: flex;
 }
 
 
 li {
-list-style: none;
+  list-style: none;
 }
-a { 
-text-decoration: none;
-color: #000;
-font-weight: 700;
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
 }
+
 ul {
-display: flex;
+  display: flex;
 }
 
 .top-menu {
@@ -23,7 +25,8 @@ display: flex;
   padding: 30px 0 20px;
   justify-content: center;
   display: flex;
-  }
+}
+
 .sub-menu {
   width: 150px;
   display: block;
@@ -33,52 +36,62 @@ display: flex;
   color: #fff;
   z-index: 12;
 }
+
 .box {
   display: flex;
 }
-.top-menu-box li{
+
+.top-menu-box li {
   margin: 0 5px;
 }
+
 .sub-menu {
-  display: none; 
+  display: none;
   position: absolute;
 }
-.top-menu-box > li:hover .sub-menu {
+
+.top-menu-box>li:hover .sub-menu {
   display: block;
 }
+
 .box {
-position: relative;
+  position: relative;
 }
+
 .top-menu-box {
-padding: 15.4px 0px 12px;
-display: flex;
-justify-content: flex-end;
+  padding: 15.4px 0px 12px;
+  display: flex;
+  justify-content: flex-end;
 
 }
+
 .logo {
-width: 80px;
-height: 80px;
-display: flex;
-padding: 20px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  padding: 20px;
 }
+
 .center {
-width: 1200px;
-margin: 0 auto;
-display: flex;
-height: 3000px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 3000px;
 
 }
+
 .gwanggo .gwanggo-1 {
-/* width: 1200px; 
-/* height: 712px; */ */
-max-width: 100%;
-height: auto;
-margin: 0 auto; 
+  /* width: 1200px; 
+/* height: 712px; */
+  */ max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
+
 .gwanggo {
-display: flex;
-margin: 0 auto;
-z-index: -1;
+  display: flex;
+  margin: 0 auto;
+  z-index: -1;
 }
 
 .gwanggo {
@@ -87,6 +100,7 @@ z-index: -1;
   width: 1200px;
   height: 712px;
 }
+
 .Text {
   width: 1200px;
   padding: 1.8rem 0.3rem 0;
@@ -94,102 +108,120 @@ z-index: -1;
   display: flex;
 }
 
-.Text .EVENT-UL , .Text .NOTICE-UL{ 
+.Text .EVENT-UL,
+.Text .NOTICE-UL {
 
-flex-direction: column;
+  flex-direction: column;
 }
+
 .Text .EVENT .EVENT-BIG {
-font-size: 30px;
+  font-size: 30px;
 }
+
 .Text .NOTICE .NOTICE-BIG {
-font-size: 30px;
+  font-size: 30px;
 }
-.Text .EVENT-UL .more , .Text .NOTICE-UL .more {
-width: 20px;
-margin-left: 10px;
+
+.Text .EVENT-UL .more,
+.Text .NOTICE-UL .more {
+  width: 20px;
+  margin-left: 10px;
 }
+
 .appbanner .appbanner-1 {
-background-color: #ddcfbd;
+  background-color: #ddcfbd;
 }
+
 .appbanner img {
-width: auto;
-height: 260px;
-display: block;
-text-align: center;
-background-color: #ddcfbd;
-margin: 0 auto;
+  width: auto;
+  height: 260px;
+  display: block;
+  text-align: center;
+  background-color: #ddcfbd;
+  margin: 0 auto;
 }
+
 .chuchen {
-width: 100%;
-height: 854.64px;
-background-image: url(https://www.yupdduk.com/images/main/bg_menu2.jpg);
-background-size: cover;
-padding-top: 6rem;
-padding-bottom: 6rem;
+  width: 100%;
+  height: 854.64px;
+  background-image: url(https://www.yupdduk.com/images/main/bg_menu2.jpg);
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 
 }
+
 .chuchen-img {
-width: 100%;
-height: 854.64;
+  width: 100%;
+  height: 854.64;
 }
+
 .yuppduk {
-display: flex;
-margin: 0px 0px 16px;
-font-size: 38.4px;
-justify-content: center;
-color: #FFF;
+  display: flex;
+  margin: 0px 0px 16px;
+  font-size: 38.4px;
+  justify-content: center;
+  color: #FFF;
 }
+
 .yup-chuchen {
-display: flex;
-margin: 10px 0px 48px;
-padding: 0px 0px 24px;
-font-size: 19.2px;
-justify-content: center;
-color: rgba(255,255, 255, .8);
+  display: flex;
+  margin: 10px 0px 48px;
+  padding: 0px 0px 24px;
+  font-size: 19.2px;
+  justify-content: center;
+  color: rgba(255, 255, 255, .8);
 }
+
 .chuchen-menu {
-display: flex;
-margin: 0px -15px;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex;
+  margin: 0px -15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .yonjo {
-background-position: center bottom !important;
-background-color: #fff !important;
-margin: 0 1%;
-padding: 0;
-background-size: 335px !important;
-background-repeat: no-repeat !important;
-height: 430px;
-width: 322px;
-box-shadow: 0 5px 15px 0 #111;
-justify-content: center;
-text-align: center;
-background-image: url(https://www.yupdduk.com/Images/main/menu01_2021.png);
+  background-position: center bottom !important;
+  background-color: #fff !important;
+  margin: 0 1%;
+  padding: 0;
+  background-size: 335px !important;
+  background-repeat: no-repeat !important;
+  height: 430px;
+  width: 322px;
+  box-shadow: 0 5px 15px 0 #111;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://www.yupdduk.com/Images/main/menu01_2021.png);
 }
+
 .yonjo:hover {
-    background-color: #de1d24 !important;
-    transition: all 1s;
-    padding: 8px;
+  background-color: #de1d24 !important;
+  transition: all 1s;
+  padding: 8px;
 }
-.yonjo:hover .yonjo-yup , .yonjo:hover .yonjo-spi {
+
+.yonjo:hover .yonjo-yup,
+.yonjo:hover .yonjo-spi {
   color: #fff !important;
   font-family: 'Noto Sans KR', sans-serif;
-    text-transform: uppercase
+  text-transform: uppercase
 }
+
 .yonjo:hover .yonjo-sub a {
   background-color: #d8b166;
   font-size: 1rem;
   padding: 2px 10px;
   transition: 0.3s;
   font-family: 'Noto Sans KR', sans-serif;
-    text-transform: uppercase
+  text-transform: uppercase
 }
 
 .yonjo .yonjo-sub {
   max-width: 400px;
   font-size: 0.92rem;
 }
+
 .yonjo .yonjo-sub .yonjo-yup {
   font-size: 1.8rem;
   font-weight: 400;
@@ -197,56 +229,63 @@ background-image: url(https://www.yupdduk.com/Images/main/menu01_2021.png);
   color: #8c6239;
   font-weight: 600;
 }
-  
-.yonjo .yonjo-sub .yonjo-spi{
+
+.yonjo .yonjo-sub .yonjo-spi {
   margin: 5px 0 10px 0;
   color: #666;
 }
 
-.yonjo .yonjo-sub a { 
-    background-color: #ccc;
-    color: #fff;
-    border-radius: 30px;
-    font-size: 0.84rem;
-    font-weight: 300;
-    padding: 1px 6px;
+.yonjo .yonjo-sub a {
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 0.84rem;
+  font-weight: 300;
+  padding: 1px 6px;
 }
+
 .SIDE {
-background-position: center bottom !important;
-background-color: #fff !important;
-margin: 0 1%;
-padding: 0;
-background-size: 335px !important;
-background-repeat: no-repeat !important;
-height: 430px;
-width: 310px;
-box-shadow: 0 5px 15px 0 #111;
-justify-content: center;
-text-align: center;
-background-image: url(https://www.yupdduk.com/images/main/menu02_2021.png);
+  background-position: center bottom !important;
+  background-color: #fff !important;
+  margin: 0 1%;
+  padding: 0;
+  background-size: 335px !important;
+  background-repeat: no-repeat !important;
+  height: 430px;
+  width: 310px;
+  box-shadow: 0 5px 15px 0 #111;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://www.yupdduk.com/images/main/menu02_2021.png);
 }
+
 .SIDE:hover {
   background-color: #de1d24 !important;
   transition: all 1s;
   padding: 8px;
 }
-.SIDE:hover .SIDE-SIDE , .SIDE:hover .SIDE-HOT {
-color: #fff !important;
-font-family: 'Noto Sans KR', sans-serif;
+
+.SIDE:hover .SIDE-SIDE,
+.SIDE:hover .SIDE-HOT {
+  color: #fff !important;
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: uppercase
 }
+
 .SIDE:hover .SIDE-SUB a {
-background-color: #d8b166;
-font-size: 1rem;
-padding: 2px 10px;
-transition: 0.3s;
-font-family: 'Noto Sans KR', sans-serif;
+  background-color: #d8b166;
+  font-size: 1rem;
+  padding: 2px 10px;
+  transition: 0.3s;
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: uppercase
 }
+
 .SIDE .SIDE-SUB {
   max-width: 400px;
   font-size: 0.92rem;
 }
+
 .SIDE .SIDE-SUB .SIDE-SIDE {
   font-size: 1.8rem;
   font-weight: 400;
@@ -254,56 +293,63 @@ font-family: 'Noto Sans KR', sans-serif;
   color: #8c6239;
   font-weight: 600;
 }
-  
-.SIDE .SIDE-SUB .SIDE-HOT{
+
+.SIDE .SIDE-SUB .SIDE-HOT {
   margin: 5px 0 10px 0;
   color: #666;
 }
 
-.SIDE .SIDE-SUB a { 
-    background-color: #ccc;
-    color: #fff;
-    border-radius: 30px;
-    font-size: 0.84rem;
-    font-weight: 300;
-    padding: 1px 6px;
+.SIDE .SIDE-SUB a {
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 0.84rem;
+  font-weight: 300;
+  padding: 1px 6px;
 }
+
 .TOPPING {
-background-position: center bottom !important;
-background-color: #fff !important;
-margin: 0 1%;
-padding: 0;
-background-size: 335px !important;
-background-repeat: no-repeat !important;
-height: 430px;
-width: 310px;
-box-shadow: 0 5px 15px 0 #111;
-justify-content: center;
-text-align: center;
-background-image: url(https://www.yupdduk.com/images/main/menu03.png);
+  background-position: center bottom !important;
+  background-color: #fff !important;
+  margin: 0 1%;
+  padding: 0;
+  background-size: 335px !important;
+  background-repeat: no-repeat !important;
+  height: 430px;
+  width: 310px;
+  box-shadow: 0 5px 15px 0 #111;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://www.yupdduk.com/images/main/menu03.png);
 }
+
 .TOPPING:hover {
   background-color: #de1d24 !important;
   transition: all 1s;
   padding: 8px;
 }
-.TOPPING:hover .TOPPING-TOP , .TOPPING:hover .TOPPING-TOP-GOOD {
-color: #fff !important;
-font-family: 'Noto Sans KR', sans-serif;
+
+.TOPPING:hover .TOPPING-TOP,
+.TOPPING:hover .TOPPING-TOP-GOOD {
+  color: #fff !important;
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: uppercase
 }
+
 .TOPPING:hover .TOPPING-SUB a {
-background-color: #d8b166;
-font-size: 1rem;
-padding: 2px 10px;
-transition: 0.3s;
-font-family: 'Noto Sans KR', sans-serif;
+  background-color: #d8b166;
+  font-size: 1rem;
+  padding: 2px 10px;
+  transition: 0.3s;
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: uppercase
 }
+
 .TOPPING .TOPPING-SUB {
   max-width: 400px;
   font-size: 0.92rem;
 }
+
 .TOPPING .TOPPING-SUB .TOPPING-TOP {
   font-size: 1.8rem;
   font-weight: 400;
@@ -311,56 +357,63 @@ font-family: 'Noto Sans KR', sans-serif;
   color: #8c6239;
   font-weight: 600;
 }
-  
-.TOPPING .TOPPING-SUB .TOPPING-TOP-GOOD{
+
+.TOPPING .TOPPING-SUB .TOPPING-TOP-GOOD {
   margin: 5px 0 10px 0;
   color: #666;
 }
 
-.TOPPING .TOPPING-SUB a { 
-    background-color: #ccc;
-    color: #fff;
-    border-radius: 30px;
-    font-size: 0.84rem;
-    font-weight: 300;
-    padding: 1px 6px;
+.TOPPING .TOPPING-SUB a {
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 0.84rem;
+  font-weight: 300;
+  padding: 1px 6px;
 }
+
 .SET {
-background-position: center bottom !important;
-background-color: #fff !important;
-margin: 0 1%;
-padding: 0;
-background-size: 335px !important;
-background-repeat: no-repeat !important;
-height: 430px;
-width: 310px;
-box-shadow: 0 5px 15px 0 #111;
-justify-content: center;
-text-align: center;
-background-image: url(https://www.yupdduk.com/images/main/menu04.png);
+  background-position: center bottom !important;
+  background-color: #fff !important;
+  margin: 0 1%;
+  padding: 0;
+  background-size: 335px !important;
+  background-repeat: no-repeat !important;
+  height: 430px;
+  width: 310px;
+  box-shadow: 0 5px 15px 0 #111;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://www.yupdduk.com/images/main/menu04.png);
 }
+
 .SET:hover {
   background-color: #de1d24 !important;
   transition: all 1s;
   padding: 8px;
 }
-.SET:hover .SET-SET , .SET:hover .SET-MORESET {
-color: #fff !important;
-font-family: 'Noto Sans KR', sans-serif;
+
+.SET:hover .SET-SET,
+.SET:hover .SET-MORESET {
+  color: #fff !important;
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: uppercase
 }
+
 .SET:hover .SET-SUB a {
-background-color: #d8b166;
-font-size: 1rem;
-padding: 2px 10px;
-transition: 0.3s;
-font-family: 'Noto Sans KR', sans-serif;
+  background-color: #d8b166;
+  font-size: 1rem;
+  padding: 2px 10px;
+  transition: 0.3s;
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: uppercase
 }
+
 .SET .SET-SUB {
   max-width: 400px;
   font-size: 0.92rem;
 }
+
 .SET .SET-SUB .SET-SET {
   font-size: 1.8rem;
   font-weight: 400;
@@ -368,34 +421,49 @@ font-family: 'Noto Sans KR', sans-serif;
   color: #8c6239;
   font-weight: 600;
 }
-  
-.SET .SET-SUB .SET-MORESET{
+
+.SET .SET-SUB .SET-MORESET {
   margin: 5px 0 10px 0;
   color: #666;
 }
 
-.SET .SET-SUB a { 
-    background-color: #ccc;
-    color: #fff;
-    border-radius: 30px;
-    font-size: 0.84rem;
-    font-weight: 300;
-    padding: 1px 6px;
+.SET .SET-SUB a {
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 0.84rem;
+  font-weight: 300;
+  padding: 1px 6px;
 }
 
 /* @@@@@@@@@@@@@@@@@@@ */
 
 @media screen and (max-width: 900px) {
-  .top-menu, .Text, .gwanggo {
+
+  .top-menu,
+  .Text,
+  .gwanggo {
     display: none;
-    }
- 
-  header #m-button {
-  display: block;}
- header .mm-menu {
-/* display: block; */
-}
   }
+
+  header #m-button {
+    display: block;
+  }
+
+  /* header .mm-menu {
+display: block;
+} */
+}
+
+.screen-block {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  /* background-color: rgba(0, 0, 0, .5); */
+  background-color: #de1d24;
+}
+
 #m-button {
   display: none;
   width: 50px;
@@ -406,36 +474,42 @@ font-family: 'Noto Sans KR', sans-serif;
   top: 1px;
   right: 30px;
 }
+
 .mm-menu {
-display: none;}
+  display: none;
+}
+
 .m-menu {
-display: flex;
-width: 300px;
-height: 100%;
-background-color: #f8f4eb;
-position: fixed;
-top: 0;
-right: 0;
-font-size: 30px;
-border: 1px solid rgba(0, 0, 0, .1);
-z-index: 10;
+  display: block;
+  width: 300px;
+  height: 100%;
+  background-color: #f8f4eb;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  z-index: 10;
 
 }
+
 .m-menu .m-bar {
-/* display: flex; */
-height: 30px;
-width: 100%;
-text-align: left;
+  /* display: flex; */
+  height: 30px;
+  width: 100%;
+  text-align: left;
 
 }
-.m-bar > div {
+
+.m-bar>div {
   padding: 0px;
 }
-.m-menu .m-bar .m-12 {
+
+.m-menu .m-bar .m-12 {  
   display: flex;
   flex-direction: row;
-  justify-content: ;
-  border-bottom: 1px  solid rgba(0, 0, 0, .1);
+  justify-content: ;  
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
 
   /* width: 100%; */
 }
@@ -449,6 +523,7 @@ text-align: left;
   border-right: 1px solid #e1d6c7;
   /* border-right: 3px solid #000; */
 }
+
 .m-menu .m-bar .m2 {
   cursor: pointer;
   display: block;
@@ -456,8 +531,9 @@ text-align: left;
   color: #8c6239;
   font-size: 15px;
   /* border: 1px solid #e1d6c7; */
-/* border-bottom: 3px solid #000; */
+  /* border-bottom: 3px solid #000; */
 }
+
 .m-menu .m-bar .m3 {
   cursor: pointer;
   display: block;
@@ -466,6 +542,7 @@ text-align: left;
   font-size: 15px;
   border: 1px solid #e1d6c7;
 }
+
 .m-menu .m-bar .m4 {
   cursor: pointer;
   display: block;
@@ -474,28 +551,35 @@ text-align: left;
   font-size: 15px;
   border: 1px solid #e1d6c7;
 }
+
 .m-menu .m-bar .m5 {
-border-bottom: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
+
 .m-menu .m-bar .m6 {
-border-bottom: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
+
 .m-menu .m-bar .m7 {
-border-bottom: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
+
 .m-menu .m-bar .m8 {
-border-bottom: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
+
 .m-menu .m-bar .m9 {
-border-bottom: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
+
 .m-menu .m-logo {
   position: absolute;
   width: 100%;
   bottom: 0;
   padding: 16px 30px;
 }
+
 .m-menu .m-logo .m-logos {
-width: 30px;
-height: 30px;
+  width: 30px;
+  height: 30px;
 }

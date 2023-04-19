@@ -1,7 +1,7 @@
 // Youtube IFame API를 로드
 // 쓰는 이유?
 // <iframe> 태그만 써도 유튜브 영상 삽입이 가능한데 태그의 속성만으로 커스텀하기에는 한계가있음
-// api를 사용하면 다양한 명령으로 도영ㅇ상 제어 가능
+// api를 사용하면 다양한 명령으로 동영상 제어 가능
 
 // (참고) iframe(inline frame): HTML 문서 내에 다른 문서를 삽입하는데 사용
 let tag = document.createElement('script'); // <script>
